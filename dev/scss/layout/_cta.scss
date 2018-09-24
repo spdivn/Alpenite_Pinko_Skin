@@ -1,0 +1,48 @@
+.button{
+    text-transform: uppercase;
+}
+
+.box{
+    height: auto;
+    width: 5px;
+    background: black;
+}
+
+
+input {
+    &:focus,
+    &:active {
+        outline: 0;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+.product-card{
+    position: relative;
+
+     .product-image{
+         position: absolute;
+         top:0;
+         left: 0;
+    }
+    .product-image-hover{
+        opacity: 0;
+        pointer-events: none;
+    }
+    &:hover{
+        .product-image{
+            opacity: 0;
+            pointer-events: all;
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        .product-image-hover{
+            opacity: 1;
+        }
+
+    }
+}

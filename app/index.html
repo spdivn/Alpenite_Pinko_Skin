@@ -1,0 +1,536 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="main">
+        <div class="Header margin-x-30">
+            <!-- NavBar -->
+            <div>
+                <!-- Immagine -->
+                <a href="#">
+                    <img src="img/spotify-logo-png-white-6.png" alt="Spotify">
+                </a>
+            </div>
+            <div class="not_hidden">
+                <!-- Bottoni -->
+                <a href="index.html" id="Home">Home</a>
+                <a href="#" id="Premium">Premium</a>
+                <a href="#" id="Assistenza">Assistenza</a>
+                <a href="#" id="Scarica">Scarica</a>
+                <a href="#" id="Accedi">Accedi</a>
+            </div>
+            <nav class="hidden">
+                <input id="nav" type="checkbox" />
+
+                <label for="nav">
+                    <b><i></i><i></i><i></i></b>
+                </label>
+
+                <menu>
+                    <li> <a href="index.html" id="Home">Home</a></li>
+                    <li> <a href="#" id="Premium">Premium</a></li>
+                    <li> <a href="#" id="Assistenza">Assistenza</a></li>
+                    <li> <a href="#" id="Scarica">Scarica</a></li>
+                    <li> <a href="#" id="Accedi">Accedi</a></li>
+                </menu>
+
+            </nav>
+        </div>
+        <div class="grid-x sposta-giu">
+            <div class="cell breadcrumb color-bread">
+                <a href="#" class="breadcrumb-element">Abbigliamento</a>
+                >
+                <a href="#" class="breadcrumb-element bold">Abiti</a>
+            </div>
+            <div class="grid-x margin-y-10">
+                <div class="cell medium-6 large-3 margin-x-6-40">
+                    <span>
+                        Filtra i risultati per:
+                    </span>
+                    <ul class="noDeco margin-bottom">
+                        <li><a href="#" class="bold uppercase noDeco">Capospalla</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">Giacche</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">Abiti</a>
+                            <ul>
+                                <li><a href="#" class="small uppercase noDeco">Abiti corti</a></li>
+                                <li><a href="#" class="small uppercase noDeco">Abiti medi</a></li>
+                                <li><a href="#" class="small uppercase noDeco">Abiti lughi</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="bold uppercase noDeco">MAGLIERIA</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">CAMICIE E BLUSE</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">TOPWEAR</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">PANTALONI</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">JEANS</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">GONNE</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">PINKO FOR TREEDOM</a></li>
+                        <li><a href="#" class="bold uppercase noDeco">WHAT'S NEW </a></li>
+                    </ul>
+                    <div class="grid-x">
+                        <div class="cell">
+                            Taglie
+                        </div>
+                        <div class="cell medium-6 large-6 sposta-giu-poco">
+                            <input id="checkbox1" type="checkbox"><label for="checkbox1">36</label>
+                        </div>
+                        <div class="cell medium-6 large-6 sposta-giu-poco">
+                            <input id="checkbox2" type="checkbox"><label for="checkbox2">38</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox3" type="checkbox"><label for="checkbox3">40</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox4" type="checkbox"><label for="checkbox4">42</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox5" type="checkbox"><label for="checkbox5">44</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox6" type="checkbox"><label for="checkbox6">46</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox7" type="checkbox"><label for="checkbox7">46N</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox8" type="checkbox"><label for="checkbox8">L</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox9" type="checkbox"><label for="checkbox9">M</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox10" type="checkbox"><label for="checkbox10">S</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox11" type="checkbox"><label for="checkbox11">XL</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox12" type="checkbox"><label for="checkbox12">XS</label>
+                        </div>
+                        <div class="cell medium-6 large-6">
+                            <input id="checkbox13" type="checkbox"><label for="checkbox13">XSS</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell medium-6 large-9 ">
+                    <div class="cell">
+                        <div class="grid-x sposta-su-poco grid-margin-x">
+                            <div class="cell small-12 medium-8 large-8 destra">
+                                ORDINA PER:
+                            </div>
+                            <div class="cell small-12 medium-4 large-4">
+                                <select>
+                                    <option style="font-style:italic" selected="">Seleziona un'opzione</option>
+                                    <option value="">Prezzo dal più basso al più alto</option>
+                                    <option value="">Prezzo dal più alto al più basso</option>
+                                    <option value="">I più cercati</option>
+                                    <option value="">I più venduti</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-x grid-margin-y no-margin">
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <div class="grid-y">
+                                <div class="cell ">
+                                    <div class="product-card">
+                                        <a>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420">
+                                                <img class="product-image" src="https://via.placeholder.com/634x940" />
+                                            </picture>
+                                            <picture>
+                                                <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/450x670/000000/FFFFFF">
+                                                <source media="(min-width: 765px)" srcset="https://via.placeholder.com/290x420/000000/FFFFFF">
+                                                <img class="product-image-hover" src="https://via.placeholder.com/634x940/000000/FFFFFF" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell grid-center">
+                                    extra vestiti
+                                </div>
+                                <div class="cell grid-center">
+                                    <a class="uppercase bold noDeco" href="#">nome</a>
+                                </div>
+                                <div class="cell grid-center">
+                                    prezzo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Footer sposta-giu">
+            <div class="grid-x grid-margin-x grid-margin-y">
+                <div class="cell grid-center">
+                    <a class="logo" href="index.html">
+                        <img src="img/spotify-logo-png-white-6.png" alt="Spotify">
+                    </a>
+                </div>
+                <div class="cell small-12 medium-12 large-3 text-center">
+                    <!-- Azienda -->
+                    <label>Azienda </label>
+                    <a href="#" id="Chi siamo">Chi siamo</a>
+                    <a href="#" id="Opportunità di lavoro">Opportunità di lavoro</a>
+                    <a href="#" id="For the Record">For the Record</a>
+                </div>
+                <div class="cell small-12 medium-12 large-3 text-center">
+                    <!-- COMMUNITY -->
+                    <label>Community </label>
+                    <a href="#" id="Per artista">Per artista</a>
+                    <a href="#" id="Sviluppatori">Sviluppatori</a>
+                    <a href="#" id="Brands">Brands</a>
+                    <a href="#" id="Brands">Investitori</a>
+                    <a href="#" id="Brands">Venditori</a>
+                </div>
+                <div class="cell small-12 medium-12 large-3 text-center">
+                    <!-- LINK UTILI -->
+                    <label>Link utili </label>
+                    <a href="#" id="Assistenza">Assistenza</a>
+                    <a href="#" id="Regala Spotify Premium">Regala Spotify Premium</a>
+                    <a href="#" id="Lettore Web">Lettore Web</a>
+                    <a href="#" id="Diritti del consumatore">Diritti del consumatore</a>
+                </div>
+                <div class="cell small-12 medium-12 large-3">
+                    <a href="#" class="img">
+                        <img src="img/Insta_Ico.png" alt="Spotify">
+                    </a>
+                    <a href="#" class="img">
+                        <img src="img/Face_Ico.png" alt="Spotify">
+                    </a>
+                    <a href="#" class="img">
+                        <img src="img/Insta_Ico.png" alt="Spotify">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+.main {
+    overflow-x: hidden;
+    max-width: $global-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.margin {
+    &-y-10 {
+        margin-top: rem-calc(10);
+    }
+    &-bottom {
+        padding-bottom: rem-calc(10);
+        border-bottom: rem-calc(1);
+        border-bottom-style: solid;
+        border-bottom-color: $black;
+    }
+    &-x-30 {
+        padding: rem-calc(0 30);
+    }
+    &-x-6-40 {
+        padding-left: rem-calc(6);
+        padding-right: rem-calc(40);
+        margin-left: rem-calc(30);
+        margin-right: rem-calc(-30);
+        @media only screen and (min-width: 320px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+.breadcrumb {
+    padding-left: rem-calc(15);
+    padding-right: rem-calc(6);
+    margin-bottom: rem-calc(5);
+    &-element {
+        padding-top: rem-calc(15);
+        padding-bottom: rem-calc(15);
+        display: inline-block;
+    }
+}
+
+.color-bread {
+    background: #f1f1f1;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.disp_block {
+    display: block;
+}
+
+.logo>img {
+    height: auto;
+    @media screen and (min-width: 375px) {
+        height: rem-calc(50);
+    }
+    width: auto;
+}
+
+.img>img {
+    height: rem-calc(50);
+    width: auto;
+}
+
+a.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sposta-giu {
+    margin-top: rem-calc(60);
+    &-poco {
+        margin-top: rem-calc(10);
+        &poco {
+            margin-top: rem-calc(5);
+        }
+    }
+}
+
+.sposta-su {
+    margin-bottom: rem-calc(60);
+    &-poco {
+        margin-bottom: rem-calc(10);
+        &poco {
+            margin-bottom: rem-calc(5);
+        }
+    }
+}
+
+.not_hidden {
+    overflow: visible;
+    visibility: visible;
+}
+
+.hidden {
+    display: none;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+//Media
+@media screen and (max-width:1024px) {
+    .not_hidden {
+        overflow: hidden;
+        visibility: hidden;
+    }
+    .hidden {
+        display: block;
+        overflow: visible;
+        visibility: visible;
+    }
+}
